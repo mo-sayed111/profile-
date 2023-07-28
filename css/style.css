@@ -1,0 +1,342 @@
+#home{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -90px;
+  
+    width: 100%;
+    height: 100vh;
+
+}
+.layer-home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.navbar .navbar-brand{
+    color:white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.navbar-nav .nav-item .active{
+    color:white;
+    font-size: 16px;
+    font-weight: lighter;
+    padding:0px 13px ;
+
+}
+
+.anim-home h2{
+    text-align: center;
+}
+.anim-home h2::after{
+    color: white;
+    font-size: 60px;
+    font-weight: lighter;
+    content:" ";
+    animation: typing 5s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "I AM|";
+    }
+
+    5% {
+        content: "I AM Mo|";
+    }
+
+    10% {
+        content: "I AM Mo.|";
+    }
+
+    15% {
+        content: "I AM Mo.Sa|";
+    }
+
+    20% {
+        content: "I AM Mo.Say|";
+    }
+
+    25% {
+        content: "I AM Mo.Saye|";
+    }
+
+    30% {
+        content: "I AM Mo.Sayed|";
+    }
+
+    35% {
+        content: "I AM Mo.Say|";
+    }
+
+    40% {
+        content: "I AM Mo.S|";
+    }
+
+    45% {
+        content: "I AM Mo|";
+    }
+
+    50% {
+        content: "I AM|";
+    }
+
+    55% {
+        content: "I AM De|";
+    }
+
+    60% {
+        content: "I AM Dev|";
+    }
+
+    65% {
+        content: "I AM Devel|";
+    }
+
+    70% {
+        content: "I AM Devele|";
+    }
+
+    75% {
+        content: "I AM Develepe|";
+    }
+
+   80% {
+        content: "I AM Develeper|";
+    }
+
+    85% {
+        content: "I AM Develep|";
+    }
+
+    90% {
+        content: "I AM Devel|";
+    }
+
+    95% {
+        content: "I AM Dev|";
+    }
+
+    100% {
+        content: "I AM|";
+    }
+
+
+
+}
+
+
+
+
+
+
+
+.line-height {
+    line-height: 1.6;
+}
+
+.text-span {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress {
+    height: 23px;
+    background-color: f1f1f1;
+}
+
+.text-progress {
+    float: right;
+}
+
+.fa-laptop {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-laptop {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.fa-bullhorn {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-bullhorn {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.fa-umbrella {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-umbrella {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.fa-gem {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-gem {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.fa-television {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-television {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.fa-camera {
+    background-color: f1f1f1;
+    color: black;
+}
+
+.service-hover:hover .fa-camera {
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+
+/****/
+
+.img-point {
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    width: 25%;
+    height: 30px;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    z-index: 11;
+}
+
+.point {
+    position: relative;
+    z-index: 111;
+}
+
+.img-point1 {
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    width: 20%;
+    height: 30px;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    z-index: 11;
+}
+
+.point-1 {
+    position: relative;
+    z-index: 111;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+}
+
+.layer-profile {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 25px;
+    bottom: 5px;
+    left: 8px;
+    right: 3px;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.897);
+    transition: all 0.4s;
+}
+
+.item:hover .layer-profile {
+    top: 8px;
+    bottom: 35px;
+    opacity: 1;
+}
+.color-Clients{
+    background-color:#f7f7f7;
+}
+.color-Blog{
+    background-color:#f7f7f7;
+}
+.card{
+    overflow: hidden;
+  
+}
+.card img{
+    transition: transform .2s;
+    overflow: hidden;
+}
+.card img:hover{
+
+    transform: scale(1.1);
+
+}
+.fa-phone {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.hover-icon:hover .fa-phone {
+    color: white;
+    background-color: black;
+    transition: all 0.6s;
+}
+.fa-envelope{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.hover-icon:hover .fa-envelope {
+    color: white;
+    background-color: black;
+    transition: all 0.6s;
+}
+.fa-location-arrow {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.hover-icon:hover .fa-location-arrow {
+    color: white;
+    background-color: black;
+    transition: all 0.6s;
+}
